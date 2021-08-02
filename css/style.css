@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+    background-color: #ddc5a2;
+}
+.wrap {
+    background-color: #523634;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wrap h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    width: 400px;
+}
+
+input:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#btn {
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#result {
+    padding: 20px 20px 10px 0;
+    list-style: none;
+}
+
+.li {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5%;
+    width: 420px;
+    margin-left: 430px;
+    margin-bottom: 10px;
+    background-color: #b6452c;
+    color: #fff;
+}
+
+.li:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.btn {
+    margin-left: 300px;
+    padding: 5px;
+    border: none;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnRed {
+    margin-left: 257px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: none;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.li_active {
+    text-decoration: line-through;
+}
+ 
